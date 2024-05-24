@@ -2,6 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Button from "./button";
 import Infobox from "./infobox";
+import Card from "./card";
+import List from "./list";
+import Checklist from "./checklist";
 const Course = () => {
 	return (
 		<div className="flex justify-center items-center top-[149px] ">
@@ -51,39 +54,13 @@ const Course = () => {
 				<b className="w-wid-343 relative text-3xl flex font-barlow text-black text-center items-center content-center">
 					UPSC Civil Services Coaching
 				</b>
-				<div className="w-wid-343 flex flex-row items-center content-start pt-0 pr-3 pb-0 pl-10 box-border gap-3">
-					<Image
-						src="/tick.svg"
-						alt="tick"
-						className=" relative "
-						width={24}
-						height={24}
-						priority
-					/>
-					<div className="relative">Weekly prelims and Mains Exams</div>
-				</div>
-				<div className="w-wid-343 flex flex-row items-center content-start pt-0 pr-3 pb-0 pl-10 box-border gap-3">
-					<Image
-						src="/tick.svg"
-						alt="tick"
-						className="relative "
-						width={24}
-						height={24}
-						priority
-					/>
-					<div className="relative">Guest Lectures by IAS Officers</div>
-				</div>
-				<div className="w-wid-343 flex flex-row items-center content-start pt-0 pr-3 pb-0 pl-10 box-border gap-3">
-					<Image
-						src="/tick.svg"
-						alt="tick"
-						className=" relative "
-						width={24}
-						height={24}
-						priority
-					/>
-					<div className="relative">Comprehensive coverage of syllabus</div>
-				</div>
+
+				<Checklist content="Weekly prelims and Mains Exams" />
+
+				<Checklist content="Guest Lectures by IAS Officers" />
+
+				<Checklist content="Comprehensive coverage of syllabus" />
+
 				<b className="relative text-2xl font-barlow text-red-100 ">
 					<span>₹ 59999</span>
 					<span className="text-gray-100"> - ₹ 63000</span>
@@ -98,21 +75,10 @@ const Course = () => {
 				</div>
 			</div>
 			<div className="absolute top-[1180px] left-[calc(50% - 181.5px)] flex flex-col items-start content-start gap-3">
-				<Image
-					src="/ketan.png"
-					alt="Image"
-					className=" relative rounded-xl  object-cover mix-blend-multiply"
-					width={343}
-					height={265}
-					priority
+				<Card
+					heading="Ace the Exam with Our Comprehensive course"
+					content="Get the knowledge and skills you need to succeed in the exam"
 				/>
-
-				<div className="w-wid-343 relative text-3xl font-semibold inline-block">
-					Ace the Exam with Our Comprehensive course
-				</div>
-				<div className="w-wid-343 relative inline-block font-medium text-sm">
-					Get the knowledge and skills you need to succeed in the exam
-				</div>
 				<div
 					className="flex flex-row items-center content-center justify-center flex-1 rounded-md bg-grey-ff border 
             border-solid border-primary-60 box-border h-10 pt-2 pr-5 pl-5 pb-2 gap-2 w-60 text-center 
@@ -121,59 +87,19 @@ const Course = () => {
 					<Button href="https://upsc.gov.in/apply-online" text="Learn More" />
 				</div>
 
-				<Image
-					src="/ketan.png"
-					alt="Image"
-					className="relative rounded-xl  object-cover mix-blend-multiply"
-					width={343}
-					height={265}
-					priority
-				/>
-
-				<div className="w-wid-343 relative text-3xl font-semibold inline-block">
-					From Humble Beginnings to Excellence
-				</div>
-
-				<div className="w-wid-343 relative inline-block font-medium text-sm">
-					Sarath Chandra Academy was founded with a vision to provide quality
+				<Card
+					heading="From Humble Beginnings to Excellence"
+					content="Sarath Chandra Academy was founded with a vision to provide quality
 					education and empower students to achieve their dreams.Over the years,
 					we have become a leading institute, know for our exceptional teaching
-					methods and impressive results.
-				</div>
+					methods and impressive results."
+				/>
 
-				<div className="flex justify-start w-wid-343 flex-row items-center pt-0 pr-3 pb-0 pl-0 box-border gap-3">
-					<Image
-						src="/tick.svg"
-						alt="tick"
-						className="relative "
-						width={24}
-						height={24}
-						priority
-					/>
-					<div className="relative text-sm">Expert Facility</div>
-				</div>
-				<div className="flex justify-start w-wid-343 flex-row items-center pt-0 pr-3 pb-0 pl-0 box-border gap-3">
-					<Image
-						src="/tick.svg"
-						alt="tick"
-						className="relative"
-						width={24}
-						height={24}
-						priority
-					/>
-					<div className="relative text-sm">Cutting Edge Methods</div>
-				</div>
-				<div className="flex justify-start w-wid-343 flex-row items-center pt-0 pr-3 pb-0 pl-0 box-border gap-3">
-					<Image
-						src="/tick.svg"
-						alt="tick"
-						className=" relative"
-						width={24}
-						height={24}
-						priority
-					/>
-					<div className="relative text-sm">Personalized Guidance</div>
-				</div>
+				<List content="Expert Facility" />
+
+				<List content="Cutting Edge Methods" />
+
+				<List content="Personalized Guidance" />
 
 				<Infobox
 					imageSrc="/phonebook.png"
