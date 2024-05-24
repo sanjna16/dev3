@@ -15,7 +15,7 @@ const Course
               width={152}
               height={38}
               priority
-              ></Image>
+              />
               <hr className='border-t-2 border-primary-40 w-full h-1/2'></hr>
             <b className='relative w-wid-343 inline-block text-4xl'>
                 Unlock Your Potential
@@ -43,7 +43,7 @@ const Course
               width={343}
               height={265}
               priority
-              ></Image>
+              />
             <b className='w-wid-343 relative text-3xl flex font-barlow text-black text-center items-center content-center'>UPSC Civil Services Coaching</b>
             <div className='w-wid-343 flex flex-row items-center content-start pt-0 pr-3 pb-0 pl-10 box-border gap-3'>
                 <Image
@@ -53,7 +53,7 @@ const Course
                 width={24}
                 height={24}
                 priority
-                ></Image>
+                />
                 <div className='relative'>Weekly prelims and Mains Exams</div>
             </div>
             <div className='w-wid-343 flex flex-row items-center content-start pt-0 pr-3 pb-0 pl-10 box-border gap-3'>
@@ -64,7 +64,7 @@ const Course
                 width={24}
                 height={24}
                 priority
-                ></Image>
+                />
                 <div className='relative'>Guest Lectures by IAS Officers</div>
             </div>
             <div className='w-wid-343 flex flex-row items-center content-start pt-0 pr-3 pb-0 pl-10 box-border gap-3'>
@@ -75,7 +75,7 @@ const Course
                 width={24}
                 height={24}
                 priority
-                ></Image>
+                />
                 <div className='relative'>Comprehensive coverage of syllabus</div>
             </div>
             <b className='relative text-2xl font-barlow text-red-100 '><span>₹ 59999</span>
@@ -97,7 +97,7 @@ const Course
                     width={343}
                     height={265}
                     priority
-                    ></Image>
+                    />
 
             <div className='w-wid-343 relative text-3xl font-semibold inline-block'>
             Ace the Exam with Our Comprehensive course
@@ -118,7 +118,7 @@ const Course
                     width={343}
                     height={265}
                     priority
-                    ></Image>
+                    />
 
             <div className='w-wid-343 relative text-3xl font-semibold inline-block'>
             From Humble Beginnings to Excellence
@@ -139,7 +139,7 @@ const Course
                     width={24}
                     height={24}
                     priority
-                    ></Image>
+                    />
                     <div className='relative text-sm'>Expert Facility</div>
             </div>
             <div className='flex justify-start w-wid-343 flex-row items-center pt-0 pr-3 pb-0 pl-0 box-border gap-3'>
@@ -150,7 +150,7 @@ const Course
                     width={24}
                     height={24}
                     priority
-                    ></Image>
+                    />
                     <div className='relative text-sm'>Cutting Edge Methods</div>
             </div>
             <div className='flex justify-start w-wid-343 flex-row items-center pt-0 pr-3 pb-0 pl-0 box-border gap-3'>
@@ -161,7 +161,7 @@ const Course
                     width={24}
                     height={24}
                     priority
-                    ></Image>
+                    />
                     <div className='relative text-sm'>Personalized Guidance</div>
             </div>
 
@@ -174,7 +174,7 @@ const Course
                     width={42}
                     height={42}
                     priority
-                    ></Image>
+                    />
                     <b className='w-wid-332 relative flex items-center h-hig-29 flex-shrink-0'>Explore Diffferent Streams</b>
                     <div className='w-wid-343 relative text-sm font-medium text-grey-10 inline-block'>
                     We offer a wide range of courses including MPC, MEC, HEC, and CEC.
@@ -192,7 +192,7 @@ const Course
                     width={42}
                     height={42}
                     priority
-                    ></Image>
+                    />
                     <b className='w-wid-332 relative flex items-center h-hig-29 flex-shrink-0'>Prepare for Top Exams</b>
                     <div className='w-wid-343 relative text-sm font-medium text-grey-10 inline-block'>
                     Our academy provides top-notch preparation for exams like JEE,
@@ -210,7 +210,7 @@ const Course
                     width={42}
                     height={42}
                     priority
-                    ></Image>
+                    />
                     <b className='w-wid-332 relative flex items-center h-hig-29 flex-shrink-0'>Unleash Your Potential</b>
                     <div className='w-wid-343 relative text-sm font-medium text-grey-10 inline-block'>
                     Our academy provides top-notch preparation for exams like JEE,
