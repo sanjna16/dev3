@@ -7,8 +7,8 @@ import List from "./list";
 import Checklist from "./checklist";
 const Course = () => {
 	return (
-		<div className="flex justify-center items-center top-[149px] ">
-			<div className="absolute top-[50px] w-wid-343 flex flex-col items-start content-start gap-6">
+		<div className="flex justify-center items-center  flex-col">
+			<div className=" w-wid-343 flex flex-col items-start content-start gap-6">
 				<Image
 					src="/logo.png"
 					alt="Logo"
@@ -40,8 +40,8 @@ const Course = () => {
 				</div>
 			</div>
 			<div
-				className="absolute overflow-hidden flex flex-col items-center content-center gap-3 top-[585px] left-[calc(50%-181.5px)] rounded-xl bg-blue-100
-        pt-0 pr-0 pb-5 ml-2 text-xs text-gray-100 font-poppins"
+				className=" overflow-hidden flex flex-col items-center content-center gap-3  rounded-xl bg-blue-100
+        pt-0 pr-0 pb-5 ml-2 text-xs text-gray-100 font-poppins mt-8"
 			>
 				<Image
 					src="/cimage.png"
@@ -74,7 +74,7 @@ const Course = () => {
 					<Button href="https://upsc.gov.in/apply-online" text=" Enroll Now" />
 				</div>
 			</div>
-			<div className="absolute top-[1180px] left-[calc(50% - 181.5px)] flex flex-col items-start content-start gap-3">
+			<div className="flex flex-col items-start content-start gap-3 ">
 				<Card
 					heading="Ace the Exam with Our Comprehensive course"
 					content="Get the knowledge and skills you need to succeed in the exam"
@@ -86,7 +86,13 @@ const Course = () => {
 				>
 					<Button href="https://upsc.gov.in/apply-online" text="Learn More" />
 				</div>
-
+				<Card
+					heading="From Humble Beginnings to Excellence"
+					content="Sarath Chandra Academy was founded with a vision to provide quality
+					education and empower students to achieve their dreams.Over the years,
+					we have become a leading institute, know for our exceptional teaching
+					methods and impressive results."
+				/>
 				<Card
 					heading="From Humble Beginnings to Excellence"
 					content="Sarath Chandra Academy was founded with a vision to provide quality

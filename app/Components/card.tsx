@@ -6,7 +6,7 @@ const Card = ({ imgUrl = "/ketan.png", heading, content }: any) => {
 			<Image
 				src={imgUrl}
 				alt="Image"
-				className=" relative rounded-xl  object-cover mix-blend-multiply"
+				className=" relative rounded-xl  object-cover mix-blend-multiply mt-8"
 				width={343}
 				height={265}
 				priority
