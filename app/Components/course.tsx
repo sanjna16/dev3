@@ -8,6 +8,8 @@ import Checklist from "./checklist";
 import Social from "./social";
 import ReviewCard from "./reviewcard";
 import Inputbox from "./inputbox";
+import Faq from "./faq";
+import Linkitems from "./linkitems";
 const Course = () => {
 	return (
 		<div className="flex justify-center items-center  flex-col">
@@ -222,17 +224,28 @@ const Course = () => {
 					priority
 				/>
 			</div>
-			{/* <div className="w-wid-274 mt-8 font-bold font-barlow relative flex flex-col justify-start items-center gap-8 text-center text-3xl">
+			<div className="w-wid-274 mt-8 font-bold font-barlow relative flex flex-col justify-start items-center gap-8 text-center text-3xl">
 				Frequently Asked Questions
 			</div>
-			<div className="flex flex-col justify-start items-start gap-4 mt-8 text-left text-lg text-primary-60">
-				<Faq
-					heading="What are the courses offered?"
-					content="We offer a wide range of courses including MPC, MEC, HEC, and
-                  CEC. We also provide top-notch preparation for exams like JEE,
-                  EAPCET, SAT, NDA, BITSAT, CLAT, and IPMAT."
-				/>
-			</div> */}
+			{/* <Faq
+				heading1="How can I enroll?"
+				heading2="What is the exam preparation like?"
+				heading3="Can I get support during my studies?"
+				heading4="What are the contact details?"
+				content1="We offer a wide range of courses including MPC, MEC, HEC, and
+CEC. We also provide top-notch preparation for exams like JEE,
+EAPCET, SAT, NDA, BITSAT, CLAT, and IPMAT."
+				content2="We offer a wide range of courses including MPC, MEC, HEC, and
+CEC. We also provide top-notch preparation for exams like JEE,
+EAPCET, SAT, NDA, BITSAT, CLAT, and IPMAT."
+				content3="We offer a wide range of courses including MPC, MEC, HEC, and
+CEC. We also provide top-notch preparation for exams like JEE,
+EAPCET, SAT, NDA, BITSAT, CLAT, and IPMAT."
+				content4="We offer a wide range of courses including MPC, MEC, HEC, and
+CEC. We also provide top-notch preparation for exams like JEE,
+EAPCET, SAT, NDA, BITSAT, CLAT, and IPMAT."
+			/> */}
+
 			<div className="relative mt-8 font-semibold flex flex-col items-center justify-start gap-5 text-3xl text-black">
 				Get In Touch
 			</div>
@@ -296,13 +309,35 @@ const Course = () => {
 				</b>
 				<div className="w-wid-343 flex items-start flex-row flex-wrap justify-start gap-x-[28px] gap-y-[91px] text-lg text-neutral-800">
 					<div className="w-[81px] relative h-[222px]">
-						<div className="inline-block w-[79.8px] font-bold">Company</div>
-						<div className="w-[81px] h-[188px] text-base text-primary-60">
-							<div className="flex flex-row items-center justify-center ">
-								About Us
-							</div>
+						<div className="flex space-x-20">
+							<div className="inline-block w-[79.8px] font-bold">Company</div>
+							<div className="inline-block w-[79.8px] font-bold">Follow</div>
+						</div>
+
+						<Linkitems link="About Us" icon="/fbook.svg" />
+						<Linkitems link="Contact" icon="/insta.svg" />
+						<Linkitems link="Courses" icon="/ytube.svg" />
+						<div className="w-[300px] text-base text-primary-60 flex space-x-40 mt-4">
+							<div className="flex flex-row  pt-1">Admissions</div>
+						</div>
+						<div className="w-[300px] text-base text-primary-60 flex space-x-40 mt-4">
+							<div className="flex flex-row  mb-8 pt-1">More</div>
 						</div>
 					</div>
+				</div>
+				<div className="w-wid-343 flex items-start flex-col jestify-center gap-[24px] text-base mt-8 text-neutral-500">
+					<div className="self-stretch flex flex-row items-start justify-start space-x-4 font-barlow">
+						<b className="">Privacy Policy</b>
+						<b className="">Terms of Service</b>
+					</div>
+				</div>
+				<div className="w-wid-343 flex items-start flex-col jestify-center gap-[20px] text-base  text-neutral-500">
+					<b className="">Cookie Settings</b>
+				</div>
+				<div className="w-wid-343 flex items-start flex-col jestify-center gap-[20px] mt-4 text-base  text-neutral-500">
+					<b className="">
+						© 2024 Sarath Chandra Academy. All rights reserved.
+					</b>
 				</div>
 			</div>
 		</div>
