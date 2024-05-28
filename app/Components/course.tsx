@@ -150,7 +150,7 @@ const Course = () => {
 					<Image
 						src="/john.png"
 						alt="john"
-						className="relative rounded-full  border border-solid border-primary-60 border-2"
+						className="relative rounded-full border-solid border-primary-60 border-2"
 						width={180}
 						height={180}
 						priority
@@ -227,24 +227,31 @@ const Course = () => {
 			<div className="w-wid-274 mt-8 font-bold font-barlow relative flex flex-col justify-start items-center gap-8 text-center text-3xl">
 				Frequently Asked Questions
 			</div>
-			{/* <Faq
-				heading1="How can I enroll?"
-				heading2="What is the exam preparation like?"
-				heading3="Can I get support during my studies?"
-				heading4="What are the contact details?"
-				content1="We offer a wide range of courses including MPC, MEC, HEC, and
-CEC. We also provide top-notch preparation for exams like JEE,
-EAPCET, SAT, NDA, BITSAT, CLAT, and IPMAT."
-				content2="We offer a wide range of courses including MPC, MEC, HEC, and
-CEC. We also provide top-notch preparation for exams like JEE,
-EAPCET, SAT, NDA, BITSAT, CLAT, and IPMAT."
-				content3="We offer a wide range of courses including MPC, MEC, HEC, and
-CEC. We also provide top-notch preparation for exams like JEE,
-EAPCET, SAT, NDA, BITSAT, CLAT, and IPMAT."
-				content4="We offer a wide range of courses including MPC, MEC, HEC, and
-CEC. We also provide top-notch preparation for exams like JEE,
-EAPCET, SAT, NDA, BITSAT, CLAT, and IPMAT."
-			/> */}
+
+			<Faq
+				title="What are the courses offered?"
+				content="We offer a wide range of courses including MPC, MEC, HEC, and
+                  CEC. We also provide top-notch preparation for exams like JEE,
+                  EAPCET, SAT, NDA, BITSAT, CLAT, and IPMAT."
+			/>
+			<Faq
+				title="How can I enroll?"
+				content="We offer a wide range of courses including MPC, MEC, HEC, and
+                  CEC. We also provide top-notch preparation for exams like JEE,
+                  EAPCET, SAT, NDA, BITSAT, CLAT, and IPMAT."
+			/>
+			<Faq
+				title="What is the exam preparation like?"
+				content="We offer a wide range of courses including MPC, MEC, HEC, and
+                  CEC. We also provide top-notch preparation for exams like JEE,
+                  EAPCET, SAT, NDA, BITSAT, CLAT, and IPMAT."
+			/>
+			<Faq
+				title="Can I get support during my studies?"
+				content="We offer a wide range of courses including MPC, MEC, HEC, and
+                  CEC. We also provide top-notch preparation for exams like JEE,
+                  EAPCET, SAT, NDA, BITSAT, CLAT, and IPMAT."
+			/>
 
 			<div className="relative mt-8 font-semibold flex flex-col items-center justify-start gap-5 text-3xl text-black">
 				Get In Touch
@@ -296,13 +303,8 @@ EAPCET, SAT, NDA, BITSAT, CLAT, and IPMAT."
 					Stay up to date with our latest features and releases by joining our
 					newsletter
 				</b>
-				{/* <Inputbox label="Email" placeholder="xyz@gmail.com" /> */}
-				<div
-					className="flex flex-row items-center justify-center rounded-[4px] bg-grey-ff border border-solid border-primary-60 
-                box-border h-10 pt-2 pr-5 pl-5 pb-2 text-primary-60 font-barlow font-bold text-base text-center"
-				>
-					<Button href="https://upsc.gov.in/apply-online" text="Subscribe" />
-				</div>
+				<Inputbox label="Email" placeholder="xyz@gmail.com" />
+
 				<b className="w-wid-343 relative flex text-grey-40 items-center">
 					By subscribing, you agree to our Privacy Policy and consent to receive
 					updates from our company
