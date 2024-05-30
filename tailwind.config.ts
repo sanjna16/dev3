@@ -52,6 +52,8 @@ const config: Config = {
 				"grey-40": "#61646b",
 				"grey-bg": "rgba(224, 228, 235, 0.4)",
 				"success-90": "#e8fccf",
+				"info-90": "#CCFBFE",
+				"success-40": "#3FAC21",
 			},
 			opacity: {
 				o: "0.4",

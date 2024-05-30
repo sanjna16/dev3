@@ -16,6 +16,7 @@ import Faqparent from "./faqparent";
 import Header from "./header";
 import Heading from "./heading";
 import Enrollbox from "./enrollbox";
+import Team from "./team";
 const Course = () => {
 	return (
 		<div className="flex justify-center items-center  flex-col">
@@ -50,41 +51,7 @@ const Course = () => {
 					/>
 				</div>
 			</div>
-			{/* <div
-				className=" overflow-hidden flex flex-col items-center content-center gap-3  rounded-xl bg-blue-100
-        pt-0 pr-0 pb-5 ml-2 text-xs text-gray-100 font-poppins mt-8"
-			>
-				<Image
-					src="/cimage.png"
-					alt="image"
-					className=" relative object-cover"
-					width={343}
-					height={265}
-					priority
-				/>
-				<b className="w-wid-343 relative text-3xl flex font-barlow text-black text-center items-center content-center">
-					UPSC Civil Services Coaching
-				</b>
 
-				<Checklist content="Weekly prelims and Mains Exams" />
-
-				<Checklist content="Guest Lectures by IAS Officers" />
-
-				<Checklist content="Comprehensive coverage of syllabus" />
-
-				<b className="relative text-2xl font-barlow text-red-100 ">
-					<span>₹ 59999</span>
-					<span className="text-gray-100"> - ₹ 63000</span>
-				</b>
-
-				<div
-					className="flex flex-row items-center content-center flex-1
-                    rounded-md bg-primary-60 border border-solid border-primary-60
-                    box-border h-10 pt-2 pr-5 pl-10 pb-2 gap-2 w-wid-165 text-lg text-grey-90 font-be-vietnam"
-				>
-					<Button href="https://upsc.gov.in/apply-online" text=" Enroll Now" />
-				</div>
-			</div> */}
 			<Enrollbox />
 			<div className="flex flex-col items-start content-start gap-3 ">
 				<Card
@@ -147,47 +114,7 @@ const Course = () => {
 				/>
 			</div>
 			<div className="w-wid-343 h-hig-670 bg-primary-90 bg-opacity-o mt-8 rounded-lg">
-				<div className="flex flex-col items-center justify-start gap-4">
-					<div className="w-wid-343 relative text-3xl inline-block text-center pt-12 font-barlow font-semibold">
-						Join Our Team
-					</div>
-					<div className="w-wid-343 relative inline-block font-medium text-gray-100 text-sm text-center">
-						Get to know our rockstar teachers and staff.
-					</div>
-					<Image
-						src="/john.png"
-						alt="john"
-						className="relative rounded-full border-solid border-primary-60 border-2"
-						width={180}
-						height={180}
-						priority
-					/>
-					<div className="w-wid-343 relative text-2xl inline-block text-center font-bold font-barlow">
-						John Doe
-					</div>
-					<div className="pr-2 pl-2 relative inline-block  text-gray-100  text-center text-sm font-medium font-barlow">
-						{" "}
-						John is a passionate math teacher with over 10 years of experience.
-					</div>
-					<div className="flex flex-row items-center justify-center gap-3 pr-2">
-						<Social img="/phone.svg" imgAlt="phone" />
-						<Social img="/whatsapp.svg" imgAlt="whatsapp" />
-						<Social img="/insta.svg" imgAlt="instagram" />
-					</div>
-					<div className="mt-8 mb-8 text-3xl inline-block w-wid-343 text-center font-extrabold">
-						We Are Hiring
-					</div>
-					<div
-						className="flex flex-row items-center justify-center flex-1 rounded-md bg-grey-ff border 
-                        border-solid border-primary-60 box-border h-10 pt-2  pb-2 gap-2 w-wid-315 text-center 
-                        text-lg text-primary-60 font-be-vietnam"
-					>
-						<Button
-							href="https://upsc.gov.in/apply-online"
-							text="Check Position"
-						/>
-					</div>
-				</div>
+				<Team />
 			</div>
 			<div className="flex felx-col items-center justify-start gap-5 mb-8">
 				<Image
