@@ -6,7 +6,7 @@ const Faq = ({ title, content }: any) => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<div className="flex flex-col justify-start items-start gap-4 text-left text-base pl-2 text-primary-60 border border-solid border-primary-60 rounded-md mt-4">
+		<div className="flex flex-col justify-start items-start mt-4 text-left text-base pl-2 text-primary-60 border border-solid border-primary-60 rounded-md">
 			<button
 				className="flex items-start justify-start flex-row gap-12 w-wid-343"
 				onClick={() => setIsOpen(!isOpen)}

@@ -15,7 +15,7 @@ const Card = ({ imgUrl = "/ketan.png", heading, content }: any) => {
 			<div className="w-wid-343 relative text-3xl font-semibold inline-block">
 				{heading}
 			</div>
-			<div className="w-wid-343 relative inline-block font-medium text-sm">
+			<div className="w-wid-343 relative inline-block font-medium text-[15px]">
 				{content}
 			</div>
 		</>
