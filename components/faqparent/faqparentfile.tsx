@@ -1,5 +1,5 @@
 import React from "react";
-import Faq from "./Faq/faq";
+import Faq from "./faq/faqfile";
 const Faqparent = () => {
 	return (
 		<>

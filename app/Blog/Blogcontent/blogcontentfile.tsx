@@ -1,6 +1,6 @@
 import React from "react";
-import Card1 from "./Card1/card1";
-import Button from "/Components/Button/button";
+import Card1 from "./card1/card1file";
+import Button from "/components/button/buttonfile";
 const Blogcontent = ({ heading, content }: any) => {
 	return (
 		<div className=" border border-solid rounded-lg border-primary-60 self-stretch">
