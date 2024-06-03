@@ -1,19 +1,23 @@
 import React from "react";
 import Image from "next/image";
-import Button from "../../Components/Button/page";
-import Infobox from "../../Components/Contact/Infobox/page";
-import Card from "../../Components/Card/page";
-import List from "../../Components/List/page";
-import ReviewCard from "../../Components/Reviewcard/page";
-import Faqparent from "../../Components/Faqparent/page";
-import Contact from "../../Components/Contact/page";
-import Heading from "../../Components/Heading/page";
-import Enrollbox from "../../Components/Enrollbox/page";
-import Team from "../../Components/Team/page";
+import Button from "../Button/button";
+import Infobox from "../Contact/Infobox/infobox";
+import Card from "../Card/card";
+import List from "../List/list";
+import ReviewCard from "../Reviewcard/reviewcard";
+import Footer from "../Footer/footer";
+import Faqparent from "../Faqparent/faqparent";
+import Contact from "../Contact/contact";
+import Header from "../Header/header";
+import Heading from "../Heading/heading";
+import Enrollbox from "../Enrollbox/enrollbox";
+import Team from "../Team/team";
 const Course = () => {
 	return (
 		<div className="flex justify-center items-center  flex-col">
 			<div className=" w-wid-343 flex flex-col items-start content-start gap-6">
+				<Header />
+
 				<Heading
 					heading="Unlock Your Potential"
 					content="Welcome to Sarath Chandra Academy’s Courses Page, Where we offer a wide
@@ -143,6 +147,7 @@ const Course = () => {
 
 			<Faqparent />
 			<Contact />
+			<Footer />
 		</div>
 	);
 };

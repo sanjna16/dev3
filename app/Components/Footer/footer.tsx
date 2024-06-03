@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Linkitems from "./Linkitems/page";
-import Inputbox from "./Inputbox/page";
+import Linkitems from "./Linkitems/linkitems";
+import Inputbox from "./Inputbox/inputbox";
 const Footer = () => {
 	return (
 		<>

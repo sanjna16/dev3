@@ -1,11 +1,10 @@
 import React from "react";
-import Header from "../../Components/Header/page";
-import Heading from "../../Components/Heading/page";
-import Button from "../../Components/Button/page";
-import Blogcontent from "./Blogcontent/page";
-import Faqparent from "../../Components/Faqparent/page";
-import Footer from "../../Components/Footer/page";
-import Contact from "../../Components/Contact/page";
+import Heading from "../Components/Heading/heading";
+import Button from "../Components/Button/button";
+import Blogcontent from "./Blogcontent/blogcontent";
+import Faqparent from "../Components/Faqparent/faqparent";
+import Footer from "../Components/Footer/footer";
+import Contact from "../Components/Contact/contact";
 const Blog = () => {
 	return (
 		<div className="flex justify-center items-center  flex-col">

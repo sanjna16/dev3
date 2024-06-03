@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Checklist from "./Checklist/page";
-import Button from "../Button/page";
+import Checklist from "./Checklist/checklist";
+import Button from "../Button/button";
 const Enrollbox = () => {
 	return (
 		<div

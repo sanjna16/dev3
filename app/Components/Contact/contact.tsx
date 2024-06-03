@@ -1,6 +1,6 @@
 import React from "react";
-import Infobox from "./Infobox/page";
-import Button from "../Button/page";
+import Infobox from "./Infobox/infobox";
+import Button from "../Button/button";
 const Contact = () => {
 	return (
 		<>

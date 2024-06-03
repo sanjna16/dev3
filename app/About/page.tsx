@@ -1,13 +1,13 @@
 import React from "react";
-import Header from "../Components/Header/page";
-import Heading from "../Components/Heading/page";
-import Button from "../Components/Button/page";
+import Header from "../Components/Header/header";
+import Heading from "../Components/Heading/heading";
+import Button from "../Components/Button/button";
 import Image from "next/image";
-import Card from "../Components/Card/page";
-import Team from "../Components/Team/page";
-import Info from "../Components/Info/page";
-import Institution from "../Components/Institution/page";
-import Footer from "../Components/Footer/page";
+import Card from "../Components/Card/card";
+import Team from "../Components/Team/team";
+import Info from "../Components/Info/info";
+import Institution from "../Components/Institution/institution";
+import Footer from "../Components/Footer/footer";
 const About = () => {
 	return (
 		<div className="flex justify-center items-center  flex-col">
