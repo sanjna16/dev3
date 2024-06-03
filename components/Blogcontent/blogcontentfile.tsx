@@ -1,5 +1,5 @@
 import React from "react";
-import Card1 from "./card1/card1file";
+import Card1 from "/components/card1/card1file";
 import Button from "/components/button/buttonfile";
 const Blogcontent = ({ heading, content }: any) => {
 	return (

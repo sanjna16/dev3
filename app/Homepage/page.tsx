@@ -5,7 +5,7 @@ import ReviewCard from "/components/reviewcard/reviewcardfile";
 import Enrollbox from "/components/enrollbox/enrollboxfile";
 import Institution from "/components/institution/institutionfile";
 import Card from "/components/card/cardfile";
-import Infobox from "/components/contact/infobox/infoboxfile";
+import Infobox from "/components/infobox/infoboxfile";
 import Faqparent from "/components/faqparent/faqparentfile";
 import Contact from "/components/contact/contactfile";
 import Social from "/components/social/socialfile";
