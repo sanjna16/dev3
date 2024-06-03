@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Social from "./social";
-import Button from "./button";
+import Social from "../Social/page";
+import Button from "../Button/page";
 const Team = () => {
 	return (
 		<>

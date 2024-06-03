@@ -1,21 +1,18 @@
 import React from "react";
-import Header from "./header";
-import Button from "./button";
+import Button from "../Components/Button/page";
 import Image from "next/image";
-import ReviewCard from "./reviewcard";
-import Enrollbox from "./enrollbox";
-import Institution from "./institution";
-import Card from "./card";
-import Infobox from "./infobox";
-import Faqparent from "./faqparent";
-import Contact from "./contact";
-import Footer from "./footer";
-import Social from "./social";
+import ReviewCard from "../Components/Reviewcard/page";
+import Enrollbox from "../Components/Enrollbox/page";
+import Institution from "../Components/Institution/page";
+import Card from "../Components/Card/page";
+import Infobox from "../Components/Contact/Infobox/page";
+import Faqparent from "../Components/Faqparent/page";
+import Contact from "../Components/Contact/page";
+import Social from "../Components/Social/page";
 const Homepage = () => {
 	return (
 		<div className="flex justify-center items-center  flex-col">
 			<div className=" w-wid-343 flex flex-col items-start content-start gap-6">
-				<Header />
 				<b className="relative w-wid-343 inline-block text-[40px]">
 					Sarat Chandra <br />
 					<span className="text-red-100">IIT</span> Academy
@@ -30,10 +27,7 @@ const Homepage = () => {
                     rounded-md bg-primary-60 border border-solid border-primary-60
                     box-border h-10 pt-2 pr-5 pl-10 pb-2 gap-2 w-wid-332 text-center justify-center text-lg text-grey-90 font-be-vietnam"
 				>
-					<Button
-						href="https://upsc.gov.in/apply-online"
-						text=" Register Now"
-					/>
+					<Button href="/About" text=" Register Now" />
 				</div>
 				<div
 					className="flex flex-row items-center justify-center flex-1 rounded-md bg-grey-ff border 
@@ -75,8 +69,8 @@ const Homepage = () => {
 						name="Barbara D. Smith"
 					/>
 				</div>
-				<Enrollbox />
-				<div className="w-[370px] h-[419px]">
+
+				<div className="w-[343px] h-[419px]">
 					<Image
 						src="/laptop.png"
 						alt="image"
@@ -85,8 +79,8 @@ const Homepage = () => {
 						height={360}
 						priority
 					/>
-					<div className="absolute top-[1805px] left-[152px] flex flex-row flex-wrap items-start justify-start">
-						<div className="w-[218px] relative rounded-lg bg-grey-ff border border-solid border-grey-80 box-border h-[82px] flex flex-row space-x-2">
+					<div className="relative top-[-20px] flex flex-row flex-wrap items-end justify-end">
+						<div className="w-[218px] relative object-cover rounded-lg bg-grey-ff border border-solid border-grey-80 box-border h-[82px] flex flex-row space-x-2">
 							<Image
 								src="/people.png"
 								alt="image"
@@ -302,7 +296,6 @@ const Homepage = () => {
 				/>
 			</div>
 			<Contact />
-			<Footer />
 		</div>
 	);
 };

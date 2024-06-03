@@ -1,16 +1,15 @@
 import React from "react";
-import Header from "./header";
-import Heading from "./heading";
-import Button from "./button";
-import Blogcontent from "./blogcontent";
-import Faqparent from "./faqparent";
-import Footer from "./footer";
-import Contact from "./contact";
+import Header from "../../Components/Header/page";
+import Heading from "../../Components/Heading/page";
+import Button from "../../Components/Button/page";
+import Blogcontent from "./Blogcontent/page";
+import Faqparent from "../../Components/Faqparent/page";
+import Footer from "../../Components/Footer/page";
+import Contact from "../../Components/Contact/page";
 const Blog = () => {
 	return (
 		<div className="flex justify-center items-center  flex-col">
 			<div className=" w-wid-343 flex flex-col items-start content-start gap-6">
-				<Header />
 				<Heading
 					heading="Unlock Your Potential"
 					content="Welcome to Sarath Chandra Academy’s Courses Page, Where we offer a wide
@@ -62,7 +61,6 @@ const Blog = () => {
 			</div>
 			<Faqparent />
 			<Contact />
-			<Footer />
 		</div>
 	);
 };

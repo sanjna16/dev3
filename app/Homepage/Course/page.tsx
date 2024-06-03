@@ -1,37 +1,19 @@
 import React from "react";
 import Image from "next/image";
-import Button from "./button";
-import Infobox from "./infobox";
-import Card from "./card";
-import List from "./list";
-import Checklist from "./checklist";
-import Social from "./social";
-import ReviewCard from "./reviewcard";
-import Inputbox from "./inputbox";
-import Faq from "./faq";
-import Linkitems from "./linkitems";
-import Footer from "./footer";
-import Contact from "./contact";
-import Faqparent from "./faqparent";
-import Header from "./header";
-import Heading from "./heading";
-import Enrollbox from "./enrollbox";
-import Team from "./team";
+import Button from "../../Components/Button/page";
+import Infobox from "../../Components/Contact/Infobox/page";
+import Card from "../../Components/Card/page";
+import List from "../../Components/List/page";
+import ReviewCard from "../../Components/Reviewcard/page";
+import Faqparent from "../../Components/Faqparent/page";
+import Contact from "../../Components/Contact/page";
+import Heading from "../../Components/Heading/page";
+import Enrollbox from "../../Components/Enrollbox/page";
+import Team from "../../Components/Team/page";
 const Course = () => {
 	return (
 		<div className="flex justify-center items-center  flex-col">
 			<div className=" w-wid-343 flex flex-col items-start content-start gap-6">
-				<Header />
-				{/* <b className="relative w-wid-343 inline-block text-4xl">
-					Unlock Your Potential
-				</b>
-				<div className="relative w-wid-343 inline-block text-lg font-light">
-					Welcome to Sarath Chandra Academy’s Courses Page, Where we offer a
-					wide range of academic steams and comprehensive preparation for
-					competitive exams. Whether you’re aiming for engineering, medical,
-					law, or management, our expert faculty and innovation teaching methods
-					will guide you towards success.
-    </div>*/}
 				<Heading
 					heading="Unlock Your Potential"
 					content="Welcome to Sarath Chandra Academy’s Courses Page, Where we offer a wide
@@ -161,7 +143,6 @@ const Course = () => {
 
 			<Faqparent />
 			<Contact />
-			<Footer />
 		</div>
 	);
 };
