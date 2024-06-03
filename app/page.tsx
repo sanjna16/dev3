@@ -1,7 +1,4 @@
-import Course from "./Components/course";
-import Homepage from "./Components/homepage";
-import Image from "next/image";
-
+import Homepage from "./Homepage/page";
 export default function Home() {
-	return <Course />;
+	return <Homepage />;
 }
