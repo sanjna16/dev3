@@ -1,14 +1,14 @@
 import React from "react";
-import Button from "/components/button/buttonfile";
+import Button from "../../components/button/buttonfile";
 import Image from "next/image";
-import ReviewCard from "/components/reviewcard/reviewcardfile";
-import Enrollbox from "/components/enrollbox/enrollboxfile";
-import Institution from "/components/institution/institutionfile";
-import Card from "/components/card/cardfile";
-import Infobox from "/components/infobox/infoboxfile";
-import Faqparent from "/components/faqparent/faqparentfile";
-import Contact from "/components/contact/contactfile";
-import Social from "/components/social/socialfile";
+import ReviewCard from "../../components/reviewcard/reviewcardfile";
+import Enrollbox from "../../components/enrollbox/enrollboxfile";
+import Institution from "../../components/institution/institutionfile";
+import Card from "../../components/card/cardfile";
+import Infobox from "../../components/infobox/infoboxfile";
+import Faqparent from "../../components/faqparent/faqparentfile";
+import Contact from "../../components/contact/contactfile";
+import Social from "../../components/social/socialfile";
 const Homepage = () => {
 	return (
 		<div className="flex justify-center items-center  flex-col">
