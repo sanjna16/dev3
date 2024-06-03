@@ -1,14 +1,14 @@
 import React from "react";
-import Button from "../Components/Button/button";
+import Button from "/Components/Button/button";
 import Image from "next/image";
-import ReviewCard from "../Components/Reviewcard/reviewcard";
-import Enrollbox from "../Components/Enrollbox/enrollbox";
-import Institution from "../Components/Institution/institution";
-import Card from "../Components/Card/card";
-import Infobox from "../Components/Contact/Infobox/infobox";
-import Faqparent from "../Components/Faqparent/faqparent";
-import Contact from "../Components/Contact/contact";
-import Social from "../Components/Social/social";
+import ReviewCard from "/Components/Reviewcard/reviewcard";
+import Enrollbox from "/Components/Enrollbox/enrollbox";
+import Institution from "/Components/Institution/institution";
+import Card from "/Components/Card/card";
+import Infobox from "/Components/Contact/Infobox/infobox";
+import Faqparent from "/Components/Faqparent/faqparent";
+import Contact from "/Components/Contact/contact";
+import Social from "/Components/Social/social";
 const Homepage = () => {
 	return (
 		<div className="flex justify-center items-center  flex-col">
@@ -27,14 +27,14 @@ const Homepage = () => {
                     rounded-md bg-primary-60 border border-solid border-primary-60
                     box-border h-10 pt-2 pr-5 pl-10 pb-2 gap-2 w-wid-332 text-center justify-center text-lg text-grey-90 font-be-vietnam"
 				>
-					<Button href="/About" text=" Register Now" />
+					<Button href="/about" text=" Register Now" />
 				</div>
 				<div
 					className="flex flex-row items-center justify-center flex-1 rounded-md bg-grey-ff border 
       border-solid border-primary-60 box-border h-10 pt-2 pr-5 pl-10 pb-2 gap-2 w-wid-332 text-center 
       text-lg text-primary-60 font-be-vietnam "
 				>
-					<Button href="/Course" text="Book a Free Demo Today ->" />
+					<Button href="/course" text="Book a Free Demo Today ->" />
 				</div>
 				<div className="flex flex-row space-x-2 items-start justify-start p-1  ">
 					<Image
@@ -107,7 +107,7 @@ const Homepage = () => {
       border-solid border-primary-60 box-border h-10 pt-2 pr-5 pl-10 pb-2 gap-2 w-[254px] text-center 
       text-lg text-primary-60 font-be-vietnam "
 				>
-					<Button href="/Blog" text="Try Now" />
+					<Button href="/blog" text="Try Now" />
 				</div>
 				<div className="flex flex-col overflow-hidden w-wid-343 bg-grey-bg items-start justify-start box-border gap-3 pt-5 pr-4 ">
 					<div className="self-stretch relative text-4xl font-bold ml-4">

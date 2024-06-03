@@ -1,15 +1,15 @@
 import React from "react";
 import Image from "next/image";
-import Button from "../Components/Button/button";
-import Infobox from "../Components/Contact/Infobox/infobox";
-import Card from "../Components/Card/card";
-import List from "../Components/List/list";
-import ReviewCard from "../Components/Reviewcard/reviewcard";
-import Faqparent from "../Components/Faqparent/faqparent";
-import Contact from "../Components/Contact/contact";
-import Heading from "../Components/Heading/heading";
-import Enrollbox from "../Components/Enrollbox/enrollbox";
-import Team from "../Components/Team/team";
+import Button from "/Components/Button/button";
+import Infobox from "/Components/Contact/Infobox/infobox";
+import Card from "/Components/Card/card";
+import List from "/Components/List/list";
+import ReviewCard from "/Components/Reviewcard/reviewcard";
+import Faqparent from "/Components/Faqparent/faqparent";
+import Contact from "/Components/Contact/contact";
+import Heading from "/Components/Heading/heading";
+import Enrollbox from "/Components/Enrollbox/enrollbox";
+import Team from "/Components/Team/team";
 const Course = () => {
 	return (
 		<div className="flex justify-center items-center  flex-col">

@@ -1,10 +1,10 @@
 import React from "react";
-import Heading from "../Components/Heading/heading";
-import Button from "../Components/Button/button";
+import Heading from "/Components/Heading/heading";
+import Button from "/Components/Button/button";
 import Blogcontent from "./Blogcontent/blogcontent";
-import Faqparent from "../Components/Faqparent/faqparent";
-import Footer from "../Components/Footer/footer";
-import Contact from "../Components/Contact/contact";
+import Faqparent from "/Components/Faqparent/faqparent";
+import Footer from "/Components/Footer/footer";
+import Contact from "/Components/Contact/contact";
 const Blog = () => {
 	return (
 		<div className="flex justify-center items-center  flex-col">
