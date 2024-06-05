@@ -2,9 +2,129 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.headerWrapper {
+	width: 343px;
+	align-items: center;
+	justify-content: center;
 }
 
+.headerInner {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: space-between;
+	padding-inline: 1rem;
+	color: #3535fd;
+}
+
+.navControls {
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+
+.navControl {
+	z-index: 2;
+	pointer-events: auto;
+	text-decoration: none;
+}
+
+.menuToggle {
+	position: relative;
+	appearance: none;
+	padding: 10px;
+	border: none;
+	background: none;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.menuToggle:before,
+.menuToggle:after {
+	position: absolute;
+	display: block;
+	content: "";
+	background: #3535fd;
+	width: 25px;
+	height: 2px;
+	left: 2px;
+	right: 2px;
+	-webkit-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+	-webkit-transform-origin: center center;
+	transform-origin: center center;
+}
+
+.menuToggle:before {
+	top: 10px;
+}
+
+.menuToggle:after {
+	bottom: 10px;
+}
+
+.menuToggle[data-open="true"]:before {
+	top: 14px;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.menuToggle[data-open="true"]:after {
+	bottom: 14px;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.navMenu {
+	pointer-events: auto;
+	position: absolute;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+
+	height: 250px;
+	width: 150px;
+	background-color: #ffff;
+	overflow: auto;
+	overflow-x: hidden;
+	transition: left 0.3s ease-in-out;
+	border-radius: 12px;
+	border: 2px solid #3535fd;
+}
+
+.navMenu[data-active="true"] {
+	left: 51%;
+	display: block;
+	z-index: 10;
+	top: 6%;
+}
+
+.navMenu[data-active="false"] {
+	display: none;
+}
+
+.navMenuLinks {
+	padding-top: 1.5rem;
+	padding-inline: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.navMenuLinks > li {
+	list-style: none;
+	margin-bottom: 24px;
+}
+
+.navMenuLinks > li > a {
+	font-family: ui-monospace, monospace;
+	font-size: 1.4rem;
+	font-weight: 200;
+	letter-spacing: 0.01em;
+	text-decoration: none;
+}
+
+.navMenuLinks > li > a:hover,
+.navMenuLinks > li > a:active {
+	font-weight: 400;
+}
